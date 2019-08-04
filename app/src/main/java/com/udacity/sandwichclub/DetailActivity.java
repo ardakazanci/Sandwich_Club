@@ -3,6 +3,7 @@ package com.udacity.sandwichclub;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.text.TextUtils;
 import android.util.Log;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -11,6 +12,8 @@ import android.widget.Toast;
 import com.squareup.picasso.Picasso;
 import com.udacity.sandwichclub.model.Sandwich;
 import com.udacity.sandwichclub.utils.JsonUtils;
+
+import java.util.List;
 
 public class DetailActivity extends AppCompatActivity {
 
@@ -76,17 +79,19 @@ public class DetailActivity extends AppCompatActivity {
 
     private void populateUI() {
 
-        for (int i = 0; i < sandwich.getIngredients().size(); i++) {
-            ingredients.append(sandwich.getIngredients().get(i));
-        }
-
-        for (String alsoKnownAsIndex : sandwich.getAlsoKnownAs()) {
-            alsoKnownAs.append(alsoKnownAsIndex);
-        }
+        ingredients.setText(textJoinFun(sandwich.getIngredients()));
+        alsoKnownAs.setText(textJoinFun(sandwich.getAlsoKnownAs()));
         placeOfOrigin.setText(sandwich.getPlaceOfOrigin());
         mainName.setText(sandwich.getMainName());
         description.setText(sandwich.getDescription());
 
+
+    }
+
+
+    public String textJoinFun(List<String> s) {
+
+        return TextUtils.join(" , ", s);
 
     }
 
