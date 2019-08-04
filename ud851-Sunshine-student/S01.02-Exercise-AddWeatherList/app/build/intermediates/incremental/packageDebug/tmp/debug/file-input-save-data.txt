@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Fri Aug 02 20:47:52 EET 2019
+0.baseType=DIRECTORY
+0.base=/Users/ardakazanci/Documents/GitHub/Udacity-AndroidNanodegree/ud851-Sunshine-student/S01.02-Exercise-AddWeatherList/app/build/intermediates/transforms/dexMerger/debug/0
+0.path=classes.dex
+0.set=DEX
+count=1

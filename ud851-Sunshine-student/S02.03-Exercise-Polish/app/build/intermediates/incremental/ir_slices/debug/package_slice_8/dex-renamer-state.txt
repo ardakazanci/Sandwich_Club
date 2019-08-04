@@ -1,0 +1,4 @@
+#Sat Aug 03 17:44:16 EET 2019
+base.0=/Users/ardakazanci/Documents/GitHub/Udacity-AndroidNanodegree/ud851-Sunshine-student/S02.03-Exercise-Polish/app/build/intermediates/transforms/dexMerger/debug/8
+path.0=classes.dex
+renamed.0=classes.dex

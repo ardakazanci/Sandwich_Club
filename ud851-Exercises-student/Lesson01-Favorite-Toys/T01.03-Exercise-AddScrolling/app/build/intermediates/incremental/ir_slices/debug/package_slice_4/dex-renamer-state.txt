@@ -1,0 +1,4 @@
+#Fri Aug 02 17:14:52 EET 2019
+base.0=/Users/ardakazanci/Documents/GitHub/Udacity-AndroidNanodegree/ud851-Exercises-student/Lesson01-Favorite-Toys/T01.03-Exercise-AddScrolling/app/build/intermediates/transforms/dexMerger/debug/4
+path.0=classes.dex
+renamed.0=classes.dex
