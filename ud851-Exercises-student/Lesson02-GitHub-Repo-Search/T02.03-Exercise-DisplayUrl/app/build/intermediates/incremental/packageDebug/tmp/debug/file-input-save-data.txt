@@ -1,7 +1,0 @@
-#Internal package file, do not edit.
-#Fri Aug 02 23:04:37 EET 2019
-0.baseType=DIRECTORY
-0.base=/Users/ardakazanci/Documents/GitHub/Udacity-AndroidNanodegree/ud851-Exercises-student/Lesson02-GitHub-Repo-Search/T02.03-Exercise-DisplayUrl/app/build/intermediates/transforms/dexMerger/debug/0
-0.path=classes.dex
-0.set=DEX
-count=1
